@@ -1,0 +1,70 @@
+h1{
+    color: aqua;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(37, 118, 122);
+    border-radius: 10px;
+}
+p{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(37, 118, 122);
+    border-radius: 10px;
+}
+.Ingrediente1{
+    color: darkblue;
+}
+ol {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 16px; /* ↓ Tamaño de fuente más pequeño */
+    text-align: left; /* mejor alineación para listas */
+    margin: 10px auto; /* ↓ Menos espacio fuera del bloque y centrado */
+    border: 1px solid black; /* ↓ Borde más delgado */
+    background-color: blanchedalmond;
+    border-radius: 6px; /* ↓ Bordes menos redondeados */
+    padding: 10px 20px; /* ↓ Menos espacio interior */
+    width: fit-content; /* ↓ Ancho ajustado al contenido */
+    max-width: 80%; /* para que no se haga muy ancho si hay mucho texto */
+}
+
+a{
+    color: darkred;
+    font-weight: bold;
+    text-decoration: underline; /* Sin subrayado */
+    font-size: 18px; /* Tamaño de fuente más pequeño */
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black; /* Borde más delgado */
+    background-color: blanchedalmond;
+    border-radius: 6px; /* Bordes menos redondeados */
+    cursor: pointer;
+    text-transform: uppercase;
+}
