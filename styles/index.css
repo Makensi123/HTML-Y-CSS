@@ -1,7 +1,6 @@
 h1{
     color: aqua;
-    font-family: sans-serif;
-    font-style: italic;
+    font-family: Montserrat;
     font-size: 50px;
     font-weight: 900;
     text-align: center;
@@ -13,18 +12,18 @@ h1{
 }
 p{
     color: red;
-    font-weight: bold;
+    font-family: Montserrat;
+    font-weight: 700;
     font-size: 20px;
     text-align: justify;
     margin: 20px;
     padding: 10px;
     border: 2px solid black;
+    box-sizing: border-box;
     background-color: blanchedalmond;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    text-transform: capitalize;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 h2{
@@ -63,7 +62,7 @@ a{
     margin: 10px;
     padding: 5px;
     border: 1px solid black; /* Borde más delgado */
-    background-color: blanchedalmond;
+    background-color: rgb(26, 16, 1);
     border-radius: 6px; /* Bordes menos redondeados */
     cursor: pointer;
     text-transform: uppercase;
